@@ -1,0 +1,23 @@
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Segredos do Streamlit (credenciais reais)
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Testes
+.pytest_cache/
