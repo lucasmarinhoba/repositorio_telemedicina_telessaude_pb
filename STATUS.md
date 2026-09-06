@@ -46,3 +46,4 @@
 - [ ] **RNF04:** Responsividade (computadores, tablets, smartphones)
 - [ ] **RNF05:** Acessibilidade (contraste, fontes legíveis, alt text)
 - [x] **RNF06:** Desempenho (arquitetura sem microsserviços, frontend simples)
+

@@ -3,6 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Framework-FF4B4B)
+[![Acesso P�blico](https://img.shields.io/badge/Acessar-Portal_P�blico-success?style=for-the-badge)](https://apoiotelemedicinapb.streamlit.app/)
 
 Portal público destinado a centralizar, organizar e facilitar o acesso a informações, projetos e serviços oficiais relacionados à telemedicina, telessaúde e saúde digital no estado da Paraíba.
 
