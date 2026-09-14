@@ -1,49 +1,50 @@
-# Estado Atual do Projeto
+﻿# Estado Atual do Projeto
 
-**Fase Atual:** Fase 1 Concluída (Iniciando Fase 2)  
-**Última Atualização:** Setembro de 2026
+**Fase Atual:** Fase 1 ConcluÃ­da (Iniciando Fase 2)  
+**Ãšltima AtualizaÃ§Ã£o:** Setembro de 2026
 
 ---
 
-## 📍 Fases de Desenvolvimento
+## ðŸ“ Fases de Desenvolvimento
 
-- [x] **Fase 0:** Preparação (Repositório, venv, .gitignore)
-- [x] **Fase 1:** Estrutura Inicial (Árvore de diretórios, app.py, requirements)
-- [ ] **Fase 2:** Configuração Visual (Tema e CSS)
-- [ ] **Fase 3:** Cabeçalho e Barra Superior de Links (RF01)
-- [ ] **Fase 4:** Página Inicial (RF03)
-- [ ] **Fase 5:** Página de Informações (RF04)
-- [ ] **Fase 6:** Página de Fluxogramas (RF06)
-- [ ] **Fase 7:** Página de Perguntas e Respostas (RF07)
-- [ ] **Fase 8:** Página de Links e Serviços (RF09)
-- [ ] **Fase 9:** Página Sobre + Aviso Legal (RF10)
-- [ ] **Fase 10:** Logos Institucionais e Rodapé (RF02)
+- [x] **Fase 0:** PreparaÃ§Ã£o (RepositÃ³rio, venv, .gitignore)
+- [x] **Fase 1:** Estrutura Inicial (Ãrvore de diretÃ³rios, app.py, requirements)
+- [ ] **Fase 2:** ConfiguraÃ§Ã£o Visual (Tema e CSS)
+- [ ] **Fase 3:** CabeÃ§alho e Barra Superior de Links (RF01)
+- [ ] **Fase 4:** PÃ¡gina Inicial (RF03)
+- [ ] **Fase 5:** PÃ¡gina de InformaÃ§Ãµes (RF04)
+- [ ] **Fase 6:** PÃ¡gina de Fluxogramas (RF06)
+- [ ] **Fase 7:** PÃ¡gina de Perguntas e Respostas (RF07)
+- [ ] **Fase 8:** PÃ¡gina de Links e ServiÃ§os (RF09)
+- [ ] **Fase 9:** PÃ¡gina Sobre + Aviso Legal (RF10)
+- [ ] **Fase 10:** Logos Institucionais e RodapÃ© (RF02)
 - [ ] **Fase 11:** Responsividade e Acessibilidade (RNF04, RNF05)
 - [ ] **Fase 12:** Testes Automatizados e QA
-- [ ] **Fase 13:** Deploy Público e Smoke Test
-- [ ] **Fase 14:** Documentação e Preparação para RAG Futuro
+- [ ] **Fase 13:** Deploy PÃºblico e Smoke Test
+- [ ] **Fase 14:** DocumentaÃ§Ã£o e PreparaÃ§Ã£o para RAG Futuro
 
 ---
 
-## 🎯 Progresso dos Requisitos
+## ðŸŽ¯ Progresso dos Requisitos
 
 ### Requisitos Funcionais (RF)
-- [ ] **RF01:** Barra superior com links para serviços externos (3 iniciais)
-- [ ] **RF02:** Área de logotipos de instituições (SES-PB, UFPB, PET Saúde Digital)
-- [ ] **RF03:** Página inicial com nome, descrição e acesso a conteúdos
-- [ ] **RF04:** Página de Informações com categorias
-- [ ] **RF05:** Apresentação de imagens com título, descrição, fonte e créditos
-- [ ] **RF06:** Seção de fluxogramas
-- [ ] **RF07:** Perguntas e Respostas (FAQ pré-cadastrado)
-- [ ] **RF08:** Busca simples *(Planejado para o Pós-MVP)*
-- [ ] **RF09:** Página dedicada a Links e Serviços externos
-- [ ] **RF10:** Página Sobre com objetivo, contexto e aviso informativo
+- [ ] **RF01:** Barra superior com links para serviÃ§os externos (3 iniciais)
+- [ ] **RF02:** Ãrea de logotipos de instituiÃ§Ãµes (SES-PB, UFPB, PET SaÃºde Digital)
+- [ ] **RF03:** PÃ¡gina inicial com nome, descriÃ§Ã£o e acesso a conteÃºdos
+- [ ] **RF04:** PÃ¡gina de InformaÃ§Ãµes com categorias
+- [ ] **RF05:** ApresentaÃ§Ã£o de imagens com tÃ­tulo, descriÃ§Ã£o, fonte e crÃ©ditos
+- [ ] **RF06:** SeÃ§Ã£o de fluxogramas
+- [ ] **RF07:** Perguntas e Respostas (FAQ prÃ©-cadastrado)
+- [ ] **RF08:** Busca simples *(Planejado para o PÃ³s-MVP)*
+- [ ] **RF09:** PÃ¡gina dedicada a Links e ServiÃ§os externos
+- [ ] **RF10:** PÃ¡gina Sobre com objetivo, contexto e aviso informativo
 
-### Requisitos Não Funcionais (RNF)
-- [ ] **RNF01:** Acesso público pela Internet com URL pública
+### Requisitos NÃ£o Funcionais (RNF)
+- [ ] **RNF01:** Acesso pÃºblico pela Internet com URL pÃºblica
 - [ ] **RNF02:** Gratuidade (Streamlit Community Cloud)
 - [x] **RNF03:** Linguagem principal: Python
 - [ ] **RNF04:** Responsividade (computadores, tablets, smartphones)
-- [ ] **RNF05:** Acessibilidade (contraste, fontes legíveis, alt text)
-- [x] **RNF06:** Desempenho (arquitetura sem microsserviços, frontend simples)
+- [ ] **RNF05:** Acessibilidade (contraste, fontes legÃ­veis, alt text)
+- [x] **RNF06:** Desempenho (arquitetura sem microsserviÃ§os, frontend simples)
+
 
