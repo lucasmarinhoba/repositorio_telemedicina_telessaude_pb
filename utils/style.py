@@ -1,7 +1,7 @@
-﻿import streamlit as st
+import streamlit as st
 
 def apply_custom_css():
-    st.markdown("\""
+    st.markdown("""
     <style>
         /* Esconder rodapé e cabeçalho padrão do Streamlit para um visual mais limpo */
         header {visibility: hidden;}
@@ -23,4 +23,4 @@ def apply_custom_css():
             text-decoration: underline;
         }
     </style>
-    "\"", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
