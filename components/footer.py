@@ -23,15 +23,13 @@ def render_footer():
     ufpb_b64 = img_to_base64(os.path.join(base_path, "ufpb.png"))
     pet_b64 = img_to_base64(os.path.join(base_path, "pet_saude_digital.png"))
     
-    # Ajuste Fino de Peso Visual:
-    # Logos horizontais (SES e PET) ganham mais altura.
-    # A logo da UFPB (por ser um brasão redondo/quadrado) precisa de uma altura menor 
-    # para que seu tamanho visual não ofusque as outras lado a lado.
+    # Todos os logos bem menores. SES e PET com 35px, UFPB com 28px (para equilibrar o formato quadrado).
+    # Gap reduzido de 50px para 30px para ficarem mais próximos, centralizados.
     html_footer = f"""
-    <div style="display: flex; justify-content: center; align-items: center; gap: 50px; flex-wrap: wrap; margin-top: 10px; margin-bottom: 30px;">
-        <img src="data:image/png;base64,{ses_pb_b64}" alt="SES-PB" style="height: 55px; object-fit: contain;">
-        <img src="data:image/png;base64,{ufpb_b64}" alt="UFPB" style="height: 40px; object-fit: contain;">
-        <img src="data:image/png;base64,{pet_b64}" alt="PET Saúde Digital" style="height: 55px; object-fit: contain;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap; margin-top: 10px; margin-bottom: 20px;">
+        <img src="data:image/png;base64,{ses_pb_b64}" alt="SES-PB" style="height: 35px; width: auto; object-fit: contain;">
+        <img src="data:image/png;base64,{ufpb_b64}" alt="UFPB" style="height: 28px; width: auto; object-fit: contain;">
+        <img src="data:image/png;base64,{pet_b64}" alt="PET Saúde Digital" style="height: 35px; width: auto; object-fit: contain;">
     </div>
     """
     
