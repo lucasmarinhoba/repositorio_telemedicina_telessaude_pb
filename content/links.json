@@ -1,0 +1,29 @@
+[
+  {
+    "id": "telessaude-ses-pb",
+    "nome": "Telessaúde SES-PB",
+    "url": "https://telessaude.ses.pb.gov.br/",
+    "descricao": "Portal de Telessaúde da Secretaria de Estado da Saúde da Paraíba",
+    "instituicao": "SES-PB",
+    "categoria": "servico",
+    "data_atualizacao": "2026-09-01"
+  },
+  {
+    "id": "insercao-pbcc",
+    "nome": "Inserção PBCC",
+    "url": "https://insercaopbcc.com/",
+    "descricao": "Projeto de Inserção PBCC",
+    "instituicao": "PBCC",
+    "categoria": "projeto",
+    "data_atualizacao": "2026-09-01"
+  },
+  {
+    "id": "tele-estomatologia-pb",
+    "nome": "Tele-Estomatologia PB",
+    "url": "https://tele-estomatologia-pb.glide.page/",
+    "descricao": "Projeto de Tele-Estomatologia da Paraíba",
+    "instituicao": "UFPB",
+    "categoria": "projeto",
+    "data_atualizacao": "2026-09-01"
+  }
+]

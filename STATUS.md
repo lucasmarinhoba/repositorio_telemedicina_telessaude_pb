@@ -48,3 +48,4 @@
 - [x] **RNF06:** Desempenho (arquitetura sem microsserviÃ§os, frontend simples)
 
 
+

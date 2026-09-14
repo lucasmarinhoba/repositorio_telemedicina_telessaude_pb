@@ -1,5 +1,7 @@
-﻿import streamlit as st
+import streamlit as st
 from utils.style import apply_custom_css
+from components.header import render_header
+from components.top_links_bar import render_top_links_bar
 
 st.set_page_config(
     page_title='Telemedicina PB',
@@ -10,5 +12,9 @@ st.set_page_config(
 # Aplicar configurações visuais e CSS customizado
 apply_custom_css()
 
-st.title('Telemedicina e Telessaúde PB')
-st.write('Bem-vindo ao repositório! A **Fase 2 (Configuração Visual)** foi aplicada com sucesso.')
+# Renderizar Cabeçalho e Barra Superior
+render_header()
+render_top_links_bar()
+
+st.write('---')
+st.write('Bem-vindo ao repositório! A **Fase 3 (Cabeçalho e Links)** foi aplicada com sucesso.')
