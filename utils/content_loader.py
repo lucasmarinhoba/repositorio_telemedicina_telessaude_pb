@@ -12,3 +12,11 @@ def carregar_links():
         return []
     with open(filepath, 'r', encoding='utf-8') as f:
         return json.load(f)
+
+def carregar_fluxogramas():
+    """Carrega a lista de fluxogramas do fluxogramas.json."""
+    filepath = os.path.join(CONTENT_DIR, 'fluxogramas.json')
+    if not os.path.exists(filepath):
+        return []
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return json.load(f)

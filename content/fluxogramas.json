@@ -1,0 +1,46 @@
+[
+  {
+    "id": "paraiba-contra-cancer",
+    "titulo": "Paraíba contra o Câncer",
+    "descricao": "Fluxo de triagem, diagnóstico e tratamento de lesões bucais suspeitas, incluindo cadastro na plataforma Paraíba contra o Câncer.",
+    "imagem": "assets/flowcharts/fluxo1.jpeg",
+    "etapas": [
+      "Usuário na USF ou CEO",
+      "Paciente apresenta lesão suspeita?",
+      "Se SIM → Aplicativo Teleestomato + Programa Paraíba contra o Câncer",
+      "Orientação e Teleconsulta → Biópsia",
+      "Lesão positiva para câncer?",
+      "Se NÃO → Encaminhamento para atenção especializada de referência",
+      "Se SIM → Lesão tratada",
+      "Se NÃO apresenta lesão suspeita → Apresenta fatores de risco?",
+      "Se NÃO → Orientações sobre prevenção ao câncer de boca",
+      "Se SIM → Verificar cadastro na plataforma",
+      "Paciente cadastrado na plataforma Paraíba contra o Câncer?",
+      "Se NÃO → Enfermeiro ou dentista cadastra o paciente",
+      "Programa garante tratamento oncológico em até 60 dias",
+      "Encaminhamento para unidade hospitalar ↔ Adequação do meio bucal pré tratamento oncológico no CEO/UBS",
+      "Acompanhamento periódico no CEO ou UBS"
+    ]
+  },
+  {
+    "id": "teleodontologia-aps",
+    "titulo": "Fluxo de Teleodontologia (APS)",
+    "descricao": "Fluxo de teleinterconsulta odontológica entre o cirurgião-dentista da Atenção Primária à Saúde e o teleconsultor.",
+    "imagem": "assets/flowcharts/fluxo2.jpeg",
+    "etapas": [
+      "1. Cirurgião-dentista da APS realiza atendimento odontológico ao usuário",
+      "2. Há dúvida quanto ao diagnóstico ou à conduta clínica?",
+      "Se NÃO → Seguimento do usuário na APS (etapa 11)",
+      "Se SIM → 3. Acesso à Plataforma de Teleodontologia",
+      "4. Teleinterconsulta entre dentista da APS e teleconsultor",
+      "5. A dúvida foi solucionada?",
+      "Se SIM → 7. Registro da resolução do caso e da conduta na Plataforma → Seguimento na APS",
+      "Se NÃO → 8. O caso requer atendimento em serviço especializado?",
+      "Se NÃO → Seguimento do usuário na APS",
+      "Se SIM → 9. O município possui serviço de referência especializada?",
+      "Se SIM → Encaminhamento ao serviço de referência especializado do município",
+      "Se NÃO → 10. Encaminhamento ao Centro Odontológico de Cruz das Armas",
+      "11. Seguimento do usuário na APS, conforme a conduta definida"
+    ]
+  }
+]
