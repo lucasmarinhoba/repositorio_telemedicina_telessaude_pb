@@ -2,6 +2,7 @@ import streamlit as st
 from utils.style import apply_custom_css
 from components.header import render_header
 from components.top_links_bar import render_top_links_bar
+from components.home import render_welcome, render_navigation_cards
 from components.footer import render_footer
 
 st.set_page_config(
@@ -13,15 +14,13 @@ st.set_page_config(
 # Aplicar configurações visuais e CSS customizado
 apply_custom_css()
 
-# Renderizar Cabeçalho e Barra Superior
+# Cabeçalho e Barra Superior de Links Externos
 render_header()
 render_top_links_bar()
 
-st.write('---')
-st.write('Bem-vindo ao repositório! A **Fase 3 (Cabeçalho e Links)** foi aplicada com sucesso.')
+# Conteúdo da Página Inicial (RF03)
+render_welcome()
+render_navigation_cards()
 
-# Espaçamento para empurrar o rodapé mais para baixo em telas vazias
-st.markdown("<br><br><br><br>", unsafe_allow_html=True)
-
-# Renderizar Rodapé Institucional
+# Rodapé Institucional (RF02)
 render_footer()
