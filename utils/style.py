@@ -7,11 +7,16 @@ def apply_custom_css():
         header {visibility: hidden;}
         footer {visibility: hidden;}
         
-        /* Ajustes de espaçamento do container principal para dar cara de portal */
+        /* Esconder menu lateral móvel do Streamlit (hamburguer e área lateral) */
+        [data-testid="collapsedControl"] { display: none !important; }
+        section[data-testid="stSidebar"] { display: none !important; }
+        
+        /* Ajustes de espaçamento do container principal para usar bem as laterais e o topo */
         .block-container {
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            max-width: 1200px;
+            padding-top: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            max-width: 1400px;
         }
         
         /* Estilo base para links institucionais */
