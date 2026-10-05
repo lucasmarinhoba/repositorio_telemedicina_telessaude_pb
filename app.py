@@ -4,6 +4,7 @@ from components.header import render_header
 from components.top_links_bar import render_top_links_bar
 from components.home import render_welcome
 from components.flowcharts import render_flowcharts_section
+from components.about import render_about_section
 from components.footer import render_footer
 
 st.set_page_config(
@@ -53,6 +54,8 @@ with col_conteudo:
         render_welcome()
     elif page == "fluxogramas":
         render_flowcharts_section()
+    elif page == "sobre":
+        render_about_section()
     else:
         st.info(f"Página **{page.capitalize()}** em construção (Fases futuras).")
 
