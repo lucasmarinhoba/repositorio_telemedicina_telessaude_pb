@@ -35,7 +35,7 @@ def render_welcome():
         """, unsafe_allow_html=True)
 
     with col_insta:
-        st.markdown("<h3 style='color: #E1306C; margin-top: 0; text-align: center;'>📱 Última Publicação</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 style='color: #E1306C; margin-top: 0; text-align: center;'>📱 Conheça o PET Saúde Digital</h3>", unsafe_allow_html=True)
         
         # Incorporação oficial (Embed) da postagem do Instagram fornecida
         st.markdown("""

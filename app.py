@@ -20,12 +20,18 @@ apply_custom_css()
 # Ler a página atual a partir da URL (se não tiver, o padrão é 'inicio')
 page = st.query_params.get("page", "inicio")
 
+# ================= CABEÇALHO E BARRA SUPERIOR =================
+# Renderizamos fora das colunas para que no celular fiquem no topo!
+render_header()
+render_top_links_bar()
+
 # ================= LAYOUT DE DUAS COLUNAS FIXAS =================
 # Coluna de Menu (Esquerda) e Coluna de Conteúdo (Direita)
 col_menu, col_conteudo = st.columns([1, 4], gap="large")
 
 with col_menu:
-    st.markdown("<h2 style='color: #0078B4; margin-top: 0px;'>Navegação</h2>", unsafe_allow_html=True)
+    # white-space: nowrap e font-size ajustado evitam que a palavra "Navegação" quebre feio no celular
+    st.markdown("<h2 style='color: #0078B4; margin-top: 0px; white-space: nowrap; font-size: 1.6rem;'>Navegação</h2>", unsafe_allow_html=True)
     
     # Função para criar links clicáveis bonitos simulando um menu sem quebras de linha no HTML
     def nav_link(target, label, icon=""):
@@ -45,11 +51,6 @@ with col_menu:
         st.markdown(menu_html, unsafe_allow_html=True)
 
 with col_conteudo:
-    # Movendo o cabeçalho e a barra para DENTRO da coluna de conteúdo 
-    # permite que o menu da esquerda suba até o topo!
-    render_header()
-    render_top_links_bar()
-    
     if page == "inicio":
         render_welcome()
     elif page == "fluxogramas":
@@ -59,5 +60,6 @@ with col_conteudo:
     else:
         st.info(f"Página **{page.capitalize()}** em construção (Fases futuras).")
 
-    st.markdown("<br><br><br>", unsafe_allow_html=True)
-    render_footer()
+# ================= RODAPÉ =================
+st.markdown("<br><br><br>", unsafe_allow_html=True)
+render_footer()
