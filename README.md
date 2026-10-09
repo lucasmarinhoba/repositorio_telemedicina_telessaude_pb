@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Framework-FF4B4B)
-[![Acesso Público](https://img.shields.io/badge/Acessar-Portal_Público-success?style=for-the-badge)](https://apoioteleodontologiapb.streamlit.app/)
+[![Acesso Público](https://img.shields.io/badge/Acessar-Portal_Público-success?style=for-the-badge)](https://apoiotelessaudepb.streamlit.app/)
 
 Portal público destinado a centralizar, organizar e facilitar o acesso a informações, projetos e serviços oficiais relacionados à teleodontologia, telessaúde e saúde digital no estado da Paraíba.
 
@@ -29,7 +29,7 @@ Portal público destinado a centralizar, organizar e facilitar o acesso a inform
 ## 📂 Estrutura do Projeto
 
 ```
-repositorio_teleodontologia_telessaude_pb/
+repositorio_telessaude_pb/
 ├── app.py                  # Ponto de entrada principal da aplicação
 ├── requirements.txt        # Dependências do projeto
 ├── .streamlit/
@@ -63,8 +63,8 @@ repositorio_teleodontologia_telessaude_pb/
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/lucasmarinhoba/repositorio_teleodontologia_telessaude_pb.git
-   cd repositorio_teleodontologia_telessaude_pb
+   git clone https://github.com/lucasmarinhoba/repositorio_telessaude_pb.git
+   cd repositorio_telessaude_pb
    ```
 
 2. **Crie e ative o ambiente virtual:**
