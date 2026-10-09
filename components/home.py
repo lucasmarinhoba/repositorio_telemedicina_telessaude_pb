@@ -11,8 +11,7 @@ def render_welcome():
         st.markdown("""
         <p style="font-size: 1.15rem; color: #444; line-height: 1.6; margin-bottom: 20px;">
             Este é o repositório público destinado a centralizar, organizar e facilitar o acesso a informações, 
-            projetos e serviços oficiais relacionados à <strong>telemedicina</strong>, 
-            <strong>telessaúde</strong> e <strong>saúde digital</strong> no estado da Paraíba.
+            projetos e serviços oficiais relacionados à <strong>telessaúde</strong> e <strong>saúde digital</strong> no estado da Paraíba.
         </p>
         """, unsafe_allow_html=True)
         

@@ -8,7 +8,7 @@ from components.about import render_about_section
 from components.footer import render_footer
 
 st.set_page_config(
-    page_title='Telemedicina PB',
+    page_title='Telessaúde PB',
     page_icon='🏥',
     layout='wide',
     initial_sidebar_state="collapsed"
