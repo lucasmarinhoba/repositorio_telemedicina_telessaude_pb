@@ -1,4 +1,4 @@
-# PLANO DE IMPLEMENTAÇÃO — Repositório de Apoio à Telemedicina e Telessaúde da Paraíba
+# PLANO DE IMPLEMENTAÇÃO — Repositório de Apoio à Teleodontologia e Telessaúde da Paraíba
 
 > Baseado no **Documento de Requisitos v2.0** (setembro/2026). Este plano não implementa código — organiza os requisitos em um roteiro executável de desenvolvimento, do zero até o deploy público, com preparação explícita para a evolução futura (busca, chatbot, RAG).
 
@@ -32,7 +32,7 @@
 
 ## 0.1. Resumo do projeto
 
-Um portal público, institucional, em **Python + Streamlit**, hospedado gratuitamente no **Streamlit Community Cloud** e versionado no **GitHub**, cuja função é **centralizar e organizar** — não substituir — o acesso a informações, serviços, projetos, fluxogramas e materiais sobre telemedicina, telessaúde e saúde digital na Paraíba. Ele funciona como uma porta de entrada única que direciona o usuário aos sistemas oficiais corretos (Telessaúde SES-PB, Inserção PBCC, Tele-Estomatologia PB), além de reunir conteúdo próprio (informações, FAQ, fluxogramas).
+Um portal público, institucional, em **Python + Streamlit**, hospedado gratuitamente no **Streamlit Community Cloud** e versionado no **GitHub**, cuja função é **centralizar e organizar** — não substituir — o acesso a informações, serviços, projetos, fluxogramas e materiais sobre teleodontologia, telessaúde e saúde digital na Paraíba. Ele funciona como uma porta de entrada única que direciona o usuário aos sistemas oficiais corretos (Telessaúde SES-PB, Inserção PBCC, Tele-Estomatologia PB), além de reunir conteúdo próprio (informações, FAQ, fluxogramas).
 
 ## 0.2. Objetivo principal
 
@@ -61,7 +61,7 @@ Incluído no MVP (derivado das seções 5, 37 e 48 do documento de requisitos):
 - Banco de dados (PostgreSQL ou outro).
 - Painel administrativo / autenticação / edição online.
 - Chatbot e arquitetura RAG.
-- Domínio próprio (`telemedicinapb.org` ou similar).
+- Domínio próprio (`teleodontologiapb.org` ou similar).
 
 ## 0.4. Funcionalidades futuras (fora do MVP, mas influenciam decisões de arquitetura hoje)
 
@@ -218,7 +218,7 @@ O único "ponto de extensão" que este plano cria deliberadamente é o `utils/co
 A estrutura proposta pelo documento de requisitos (seção 29) é adotada como base, com pequenos acréscimos justificados (marcados com ✦):
 
 ```text
-repositorio-telemedicina-telessaude-pb/
+repositorio-teleodontologia-telessaude-pb/
 │
 ├── app.py
 │
@@ -366,7 +366,7 @@ Para cada fase: **Objetivo · Tarefas · Arquivos envolvidos · Dependências ·
 **Objetivo:** ter o ambiente e o repositório prontos para começar a codificar.
 
 **Tarefas:**
-- Criar o repositório no GitHub com o nome `repositorio-telemedicina-telessaude-pb` (seção 1.1 do documento).
+- Criar o repositório no GitHub com o nome `repositorio-teleodontologia-telessaude-pb` (seção 1.1 do documento).
 - Criar ambiente virtual Python local (`venv`).
 - Definir a versão mínima do Python do projeto (recomendado: 3.11, por ser estável e amplamente suportada pelo Streamlit Community Cloud).
 - Criar `.gitignore` inicial (`.venv/`, `__pycache__/`, `.streamlit/secrets.toml`, `.DS_Store`).
@@ -538,9 +538,9 @@ feat: integra cards de Informações, Fluxogramas e FAQ na home
 
 **Tarefas:**
 - Definir o schema de `content/informacoes_index.json` (categoria, título, arquivo `.md`, fonte).
-- Escrever os primeiros artigos em `content/informacoes/*.md` (ex.: "O que é telessaúde", "O que é telemedicina"), cada um com a fonte citada ao final (ver seção 14 — preparação para RAG).
+- Escrever os primeiros artigos em `content/informacoes/*.md` (ex.: "O que é telessaúde", "O que é teleodontologia"), cada um com a fonte citada ao final (ver seção 14 — preparação para RAG).
 - Adicionar `carregar_informacoes()` em `utils/content_loader.py`.
-- Criar `pages/1_Informacoes.py`, agrupando artigos por categoria (Telemedicina, Telessaúde, Saúde Digital, Serviços, Projetos, Educação, Pesquisa, Legislação — seção 14 do documento, categorias iniciais podem ser um subconjunto).
+- Criar `pages/1_Informacoes.py`, agrupando artigos por categoria (Teleodontologia, Telessaúde, Saúde Digital, Serviços, Projetos, Educação, Pesquisa, Legislação — seção 14 do documento, categorias iniciais podem ser um subconjunto).
 
 **Arquivos envolvidos:**
 - Criados: `content/informacoes_index.json`, `content/informacoes/*.md`, `pages/1_Informacoes.py`
@@ -612,7 +612,7 @@ assets: adiciona primeiro fluxograma (fluxo de teleatendimento)
 **Objetivo:** implementar o FAQ com as perguntas já sugeridas no documento de requisitos (seção 17).
 
 **Tarefas:**
-- Criar `content/faq.json` com as perguntas: "O que é telessaúde?", "O que é telemedicina?", "Qual a diferença entre telemedicina e telessaúde?", "Onde encontro os serviços de telessaúde da Paraíba?" (esta última reaproveitando `links.json`).
+- Criar `content/faq.json` com as perguntas: "O que é telessaúde?", "O que é teleodontologia?", "Qual a diferença entre teleodontologia e telessaúde?", "Onde encontro os serviços de telessaúde da Paraíba?" (esta última reaproveitando `links.json`).
 - Adicionar `carregar_faq()` em `utils/content_loader.py`.
 - Criar `pages/3_Perguntas_e_Respostas.py`, exibindo cada pergunta como um item expansível (`st.expander`).
 
@@ -1324,3 +1324,4 @@ As Fases 5 a 9 podem, na prática, ser desenvolvidas em uma ordem ligeiramente d
 - Nenhum frontend além do Streamlit foi introduzido.
 - Alternativas técnicas foram comparadas e uma foi escolhida em pelo menos três pontos centrais: navegação interna nativa vs. customizada (seção 1.4), formato de conteúdo JSON/Markdown/YAML (seção 8), e tratamento de branches/commits (seção 5).
 - MVP e funcionalidades futuras estão claramente separados ao longo de todo o documento (seções 0.3, 0.4 e 15 em especial).
+

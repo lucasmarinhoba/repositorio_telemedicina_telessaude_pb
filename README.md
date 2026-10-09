@@ -1,11 +1,11 @@
-# Repositório de Apoio à Telemedicina e Telessaúde no Estado da Paraíba
+# Repositório de Apoio à Teleodontologia e Telessaúde no Estado da Paraíba
 
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Framework-FF4B4B)
-[![Acesso Público](https://img.shields.io/badge/Acessar-Portal_Público-success?style=for-the-badge)](https://apoiotelemedicinapb.streamlit.app/)
+[![Acesso Público](https://img.shields.io/badge/Acessar-Portal_Público-success?style=for-the-badge)](https://apoioteleodontologiapb.streamlit.app/)
 
-Portal público destinado a centralizar, organizar e facilitar o acesso a informações, projetos e serviços oficiais relacionados à telemedicina, telessaúde e saúde digital no estado da Paraíba.
+Portal público destinado a centralizar, organizar e facilitar o acesso a informações, projetos e serviços oficiais relacionados à teleodontologia, telessaúde e saúde digital no estado da Paraíba.
 
 > **Nota:** Este portal não substitui os sistemas oficiais da Secretaria de Estado da Saúde (SES-PB) ou de outras instituições, mas atua como um hub centralizador para direcionar o usuário rápida e facilmente para as fontes corretas.
 
@@ -13,7 +13,7 @@ Portal público destinado a centralizar, organizar e facilitar o acesso a inform
 
 - **Acesso Rápido:** Barra superior com links diretos para os principais sistemas (Telessaúde SES-PB, Inserção PBCC, Tele-Estomatologia PB).
 - **Página Inicial:** Tela de boas-vindas com cards de navegação para todas as seções do portal.
-- **Artigos Informativos:** Conteúdos organizados por categorias sobre saúde digital e telemedicina.
+- **Artigos Informativos:** Conteúdos organizados por categorias sobre saúde digital e teleodontologia.
 - **Fluxogramas:** Diagramas visuais dos processos e fluxos de atendimento.
 - **Perguntas Frequentes (FAQ):** Respostas para as dúvidas mais comuns da população e de profissionais.
 - **Links e Serviços:** Catálogo completo de serviços externos e instituições parceiras.
@@ -29,7 +29,7 @@ Portal público destinado a centralizar, organizar e facilitar o acesso a inform
 ## 📂 Estrutura do Projeto
 
 ```
-repositorio_telemedicina_telessaude_pb/
+repositorio_teleodontologia_telessaude_pb/
 ├── app.py                  # Ponto de entrada principal da aplicação
 ├── requirements.txt        # Dependências do projeto
 ├── .streamlit/
@@ -63,8 +63,8 @@ repositorio_telemedicina_telessaude_pb/
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/lucasmarinhoba/repositorio_telemedicina_telessaude_pb.git
-   cd repositorio_telemedicina_telessaude_pb
+   git clone https://github.com/lucasmarinhoba/repositorio_teleodontologia_telessaude_pb.git
+   cd repositorio_teleodontologia_telessaude_pb
    ```
 
 2. **Crie e ative o ambiente virtual:**
@@ -109,3 +109,4 @@ repositorio_telemedicina_telessaude_pb/
 ## 📄 Avisos Legais e Responsabilidade
 
 Este portal possui finalidade estritamente **informativa e educacional**. As informações aqui apresentadas não substituem, sob nenhuma circunstância, a avaliação, diagnóstico, orientação ou atendimento realizado por profissionais de saúde habilitados.
+

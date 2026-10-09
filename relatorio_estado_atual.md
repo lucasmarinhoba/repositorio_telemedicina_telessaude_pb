@@ -1,4 +1,4 @@
-# Relatório de Estado Atual - Repositório de Apoio à Telemedicina e Telessaúde PB
+# Relatório de Estado Atual - Repositório de Apoio à Teleodontologia e Telessaúde PB
 
 ## Visão Geral
 O projeto encontra-se em desenvolvimento ativo, estruturado como uma aplicação web baseada em Python utilizando o framework Streamlit. O foco atual tem sido estabelecer a base arquitetural, identidade visual e a mecânica principal de navegação e renderização de conteúdos dinâmicos.
@@ -24,3 +24,4 @@ A aplicação abandonou a barra lateral móvel padrão do Streamlit em favor de 
 ## Considerações Técnicas
 * A aplicação utiliza uma abordagem leve de dados, dispensando banco de dados relacional e utilizando apenas leitura de arquivos estáticos (`.json` e `.md`).
 * O roteamento interno foi totalmente customizado via URL (query params) para entregar a experiência de navegação com menu fixo solicitada para a interface.
+

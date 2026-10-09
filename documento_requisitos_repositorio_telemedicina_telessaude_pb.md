@@ -1,5 +1,5 @@
 # Documento de Requisitos
-## Repositório de Apoio à Telemedicina e Telessaúde da Paraíba
+## Repositório de Apoio à Teleodontologia e Telessaúde da Paraíba
 
 **Versão:** 2.0  
 **Data:** setembro de 2026  
@@ -14,21 +14,21 @@
 
 ## 1.1. Nome
 
-**Repositório de Apoio à Telemedicina e Telessaúde da Paraíba**
+**Repositório de Apoio à Teleodontologia e Telessaúde da Paraíba**
 
 Nome curto para uso na interface:
 
-**Telemedicina e Telessaúde PB**
+**Teleodontologia e Telessaúde PB**
 
 Nome sugerido para o repositório GitHub:
 
-`repositorio-telemedicina-telessaude-pb`
+`repositorio-teleodontologia-telessaude-pb`
 
 ---
 
 # 2. Contexto do projeto
 
-O projeto consiste no desenvolvimento de um portal público destinado a centralizar, organizar e facilitar o acesso a informações relacionadas à telemedicina, telessaúde e saúde digital na Paraíba.
+O projeto consiste no desenvolvimento de um portal público destinado a centralizar, organizar e facilitar o acesso a informações relacionadas à teleodontologia, telessaúde e saúde digital na Paraíba.
 
 A proposta é criar um ponto de entrada único para informações, materiais, projetos, serviços, fluxogramas, imagens, perguntas e respostas e links para plataformas externas relacionadas ao tema.
 
@@ -46,7 +46,7 @@ A lista de links deverá ser expansível para permitir a inclusão de novos proj
 
 # 3. Justificativa
 
-Informações relacionadas à telemedicina e telessaúde podem estar distribuídas entre diferentes instituições, projetos, páginas e documentos.
+Informações relacionadas à teleodontologia e telessaúde podem estar distribuídas entre diferentes instituições, projetos, páginas e documentos.
 
 Isso dificulta a localização de informações por usuários que não conhecem previamente os sistemas existentes.
 
@@ -58,7 +58,7 @@ A proposta é semelhante, em conceito de navegação, a um portal de informaçõ
 
 # 4. Objetivo geral
 
-Desenvolver um portal web público, gratuito, simples e visualmente agradável para reunir e disponibilizar informações de apoio sobre telemedicina e telessaúde na Paraíba.
+Desenvolver um portal web público, gratuito, simples e visualmente agradável para reunir e disponibilizar informações de apoio sobre teleodontologia e telessaúde na Paraíba.
 
 ---
 
@@ -66,7 +66,7 @@ Desenvolver um portal web público, gratuito, simples e visualmente agradável p
 
 O sistema deverá:
 
-1. Centralizar informações relacionadas à telemedicina e telessaúde na Paraíba.
+1. Centralizar informações relacionadas à teleodontologia e telessaúde na Paraíba.
 2. Facilitar a localização de serviços e projetos existentes.
 3. Disponibilizar imagens e materiais gráficos.
 4. Disponibilizar fluxogramas.
@@ -97,12 +97,12 @@ O portal deverá ser desenvolvido para diferentes perfis de usuários.
 ## Público secundário
 
 - população em geral;
-- pessoas interessadas em telemedicina;
+- pessoas interessadas em teleodontologia;
 - instituições de ensino;
 - instituições de saúde;
 - outros projetos e pesquisadores relacionados ao tema.
 
-A interface deverá assumir que o usuário pode não possuir conhecimento técnico sobre telemedicina ou informática.
+A interface deverá assumir que o usuário pode não possuir conhecimento técnico sobre teleodontologia ou informática.
 
 ---
 
@@ -135,7 +135,7 @@ A página inicial deverá seguir aproximadamente a seguinte hierarquia:
 │ Telessaúde SES-PB │ Inserção PBCC │ Tele-Estomatologia PB │
 ├────────────────────────────────────────────────────────────┤
 │                                                            │
-│       REPOSITÓRIO DE APOIO À TELEMEDICINA                 │
+│       REPOSITÓRIO DE APOIO À TELEODONTOLOGIA                 │
 │              E TELESSAÚDE DA PARAÍBA                      │
 │                                                            │
 │      Informação, serviços, projetos e materiais            │
@@ -321,7 +321,7 @@ Possíveis categorias:
 ```text
 Informações
 │
-├── Telemedicina
+├── Teleodontologia
 ├── Telessaúde
 ├── Saúde Digital
 ├── Serviços
@@ -361,7 +361,7 @@ Quando aplicável, deverão ser apresentadas:
 
 Deverá existir uma seção específica para fluxogramas.
 
-Os fluxogramas deverão representar processos relacionados à telessaúde e telemedicina.
+Os fluxogramas deverão representar processos relacionados à telessaúde e teleodontologia.
 
 Exemplo conceitual:
 
@@ -404,11 +404,11 @@ Exemplos:
 
 Resposta explicativa em linguagem acessível.
 
-### O que é telemedicina?
+### O que é teleodontologia?
 
 Resposta explicativa baseada em fontes confiáveis.
 
-### Qual a diferença entre telemedicina e telessaúde?
+### Qual a diferença entre teleodontologia e telessaúde?
 
 Resposta comparativa.
 
@@ -602,7 +602,7 @@ A documentação oficial do Streamlit descreve o Community Cloud como uma plataf
 Estrutura inicial recomendada:
 
 ```text
-repositorio-telemedicina-telessaude-pb/
+repositorio-teleodontologia-telessaude-pb/
 │
 ├── app.py
 │
@@ -688,7 +688,7 @@ O FAQ deverá seguir estrutura semelhante:
     "resposta": "..."
   },
   {
-    "pergunta": "O que é telemedicina?",
+    "pergunta": "O que é teleodontologia?",
     "resposta": "..."
   }
 ]
@@ -1011,7 +1011,7 @@ Inicialmente será utilizada a URL fornecida pelo Streamlit.
 Posteriormente poderá ser considerado um domínio próprio, por exemplo:
 
 ```text
-telemedicinapb.org
+teleodontologiapb.org
 ```
 
 ou outro domínio definido pelos responsáveis pelo projeto.
@@ -1087,7 +1087,7 @@ A solução proposta é:
 
 ```text
 ┌──────────────────────────────────────────────────┐
-│      REPOSITÓRIO DE APOIO À TELEMEDICINA        │
+│      REPOSITÓRIO DE APOIO À TELEODONTOLOGIA        │
 │             E TELESSAÚDE DA PARAÍBA             │
 ├──────────────────────────────────────────────────┤
 │ Telessaúde │ Inserção PBCC │ Tele-Estomatologia │
@@ -1127,7 +1127,7 @@ para:
 
 e posteriormente para:
 
-**plataforma inteligente de acesso ao conhecimento sobre telemedicina e telessaúde na Paraíba.**
+**plataforma inteligente de acesso ao conhecimento sobre teleodontologia e telessaúde na Paraíba.**
 
 A evolução prevista é:
 
@@ -1153,7 +1153,7 @@ Essa estratégia permite começar com uma aplicação pequena, gratuita e simple
 
 ### Nome
 
-**Repositório de Apoio à Telemedicina e Telessaúde da Paraíba**
+**Repositório de Apoio à Teleodontologia e Telessaúde da Paraíba**
 
 ### Tecnologia
 
@@ -1208,4 +1208,5 @@ Essa estratégia permite começar com uma aplicação pequena, gratuita e simple
 - Streamlit Community Cloud: https://docs.streamlit.io/deploy/streamlit-community-cloud
 - Deploy de aplicações Streamlit: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app
 - Compartilhamento de aplicações: https://docs.streamlit.io/deploy/streamlit-community-cloud/share-your-app
+
 

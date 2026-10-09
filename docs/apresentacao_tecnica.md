@@ -1,18 +1,18 @@
 ---
 marp: true
 paginate: true
-title: Apresentação Técnica — Repositório de Apoio à Telemedicina e Telessaúde PB
+title: Apresentação Técnica — Repositório de Apoio à Teleodontologia e Telessaúde PB
 ---
 
-# Repositório de Apoio à Telemedicina e Telessaúde no Estado da Paraíba
+# Repositório de Apoio à Teleodontologia e Telessaúde no Estado da Paraíba
 
 ## Apresentação Técnica
 
 PET-Saúde Informação e Saúde Digital no SUS – Paraíba (GT03 / GT04)
 SES-PB · UFPB · PET Saúde Digital
 
-- **Site público:** https://apoiotelemedicinapb.streamlit.app/
-- **Código-fonte:** https://github.com/lucasmarinhoba/repositorio_telemedicina_telessaude_pb
+- **Site público:** https://apoioteleodontologiapb.streamlit.app/
+- **Código-fonte:** https://github.com/lucasmarinhoba/repositorio_teleodontologia_telessaude_pb
 
 ---
 
@@ -31,7 +31,7 @@ SES-PB · UFPB · PET Saúde Digital
 
 ## 1. O problema e a proposta
 
-**Problema:** as informações sobre telemedicina e telessaúde na Paraíba estão espalhadas entre instituições, projetos e páginas diferentes.
+**Problema:** as informações sobre teleodontologia e telessaúde na Paraíba estão espalhadas entre instituições, projetos e páginas diferentes.
 
 **Proposta:** um portal público que funcione como **ponto de entrada único**, organizando a informação e levando o usuário aos serviços oficiais.
 
@@ -124,7 +124,7 @@ with open(filepath, 'r', encoding='utf-8') as f:
 flowchart LR
     DEV["Computador do desenvolvedor"] -->|git push| GH["GitHub (branch main)"]
     GH -->|deploy| SC["Streamlit Community Cloud"]
-    SC --> URL["apoiotelemedicinapb.streamlit.app"]
+    SC --> URL["apoioteleodontologiapb.streamlit.app"]
     URL --> USR["Usuários"]
 ```
 
@@ -155,7 +155,7 @@ Legenda usada nas próximas tabelas:
 | 🟡 | Parcialmente atendido (detalhado na tabela) |
 | ⬜ | Ainda não implementado |
 
-Fonte: `documento_requisitos_repositorio_telemedicina_telessaude_pb.md` (versão 2.0).
+Fonte: `documento_requisitos_repositorio_teleodontologia_telessaude_pb.md` (versão 2.0).
 
 ---
 
@@ -182,7 +182,7 @@ Fonte: `documento_requisitos_repositorio_telemedicina_telessaude_pb.md` (versão
 
 | Código | Requisito | Situação | Como foi atendido |
 |---|---|---|---|
-| **RNF01** | Acesso público pela Internet, sem `localhost` | ✅ | https://apoiotelemedicinapb.streamlit.app/ |
+| **RNF01** | Acesso público pela Internet, sem `localhost` | ✅ | https://apoioteleodontologiapb.streamlit.app/ |
 | **RNF02** | Gratuidade | ✅ | GitHub + Streamlit Community Cloud (planos gratuitos) |
 | **RNF03** | Linguagem Python | ✅ | 100% do código da aplicação em Python |
 | **RNF04** | Responsividade | 🟡 | `st.columns` empilha em telas pequenas e barras usam `flex-wrap`; ainda sem validação formal em dispositivos |
@@ -261,7 +261,7 @@ else:
 
 ```text
 ┌──────────────┬─────────────────────────────────────────────────┐
-│  Navegação   │  Repositório de Apoio à Telemedicina e          │
+│  Navegação   │  Repositório de Apoio à Teleodontologia e          │
 │              │  Telessaúde no Estado da Paraíba                │
 │  🏠 Início   ├─────────────────────────────────────────────────┤
 │  📋 Artigos  │ Telessaúde SES-PB │ Inserção PBCC │ Tele-Estomato│
@@ -286,7 +286,7 @@ O item ativo do menu é destacado por fundo, negrito e borda lateral, para não 
 ## 5. Estrutura do código
 
 ```text
-repositorio_telemedicina_telessaude_pb/
+repositorio_teleodontologia_telessaude_pb/
 ├── app.py                    # ponto de entrada, layout e roteamento
 ├── requirements.txt          # dependências: streamlit, pytest
 ├── .streamlit/config.toml    # tema de cores
@@ -668,6 +668,6 @@ streamlit run app.py        # abre em http://localhost:8501
 
 **Links**
 
-- Site: https://apoiotelemedicinapb.streamlit.app/
-- Código: https://github.com/lucasmarinhoba/repositorio_telemedicina_telessaude_pb
+- Site: https://apoioteleodontologiapb.streamlit.app/
+- Código: https://github.com/lucasmarinhoba/repositorio_teleodontologia_telessaude_pb
 - Instagram: https://www.instagram.com/petsaude.digital/
